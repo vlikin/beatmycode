@@ -1,3 +1,6 @@
 It containes programm patterns - Gang of Four.
 
-1. prototype.php .
+Types:
+ - C - Creational.
+
+1. C - prototype.php .
