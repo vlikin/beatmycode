@@ -1,0 +1,1 @@
+It containes programm patterns - Gang of Four.
