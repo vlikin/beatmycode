@@ -4,5 +4,6 @@ Types:
  - C - Creational.
 
 1. C - prototype.php .
-2. X - command.php .
-3. X - singleton.php .
+2. B - command.php .
+3. C - singleton.php .
+3. B - builder.php .
