@@ -8,4 +8,5 @@ Types:
 3. C - singleton.php .
 4. B - builder.php .
 5. B - template_method.php .
-6. X - strategy.php .
+6. B - strategy.php .
+7. B - state.php .
