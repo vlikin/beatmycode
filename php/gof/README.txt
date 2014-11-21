@@ -10,3 +10,4 @@ Types:
 5. B - template_method.php .
 6. B - strategy.php .
 7. B - state.php .
+8. B - observer.php .
