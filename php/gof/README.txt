@@ -11,3 +11,4 @@ Types:
 6. B - strategy.php .
 7. B - state.php .
 8. B - observer.php .
+9. B - chain_of_responsibility.php
