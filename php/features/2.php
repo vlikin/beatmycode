@@ -1,4 +1,10 @@
 <?php
+/**
+ * @file - Magic Methods.
+ *
+ * @link - http://www.lornajane.net/posts/2012/9-magic-methods-in-php .
+ * @link - http://php.net/manual/en/language.oop5.magic.php .
+ */
 
 class Animal {
 }
@@ -30,5 +36,3 @@ class Penguin extends Animal {
       return false;
   }
 }
-
-$penguin = new 
