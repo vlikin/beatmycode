@@ -14,3 +14,4 @@ Types:
 9.  B - chain_of_responsibility.php .
 10. C - abstract_factory.php .
 11. C - factory_method.php .
+12. S - decorator.php
