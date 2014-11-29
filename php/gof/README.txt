@@ -18,6 +18,7 @@ Types:
 13. S - proxy.php .
 14. S - adapter.php .
 15. S - bridge.php .
+16. S - facade.php .
 
 Questions:
 
