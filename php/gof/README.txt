@@ -2,6 +2,8 @@ It containes programm patterns - Gang of Four.
 
 Types:
  - C - Creational.
+ - B - Behavioral.
+ - S - Structual.
 
 1.  C - prototype.php .
 2.  B - command.php .
@@ -19,6 +21,14 @@ Types:
 14. S - adapter.php .
 15. S - bridge.php .
 16. S - facade.php .
+17. 0 - composite.php .
+18. 0 - flyweight.php .
+19. 0 - interpreter.php .
+20. 0 - interator.php .
+21. 0 - mediator.php .
+22. 0 - memento.php .
+23. 0 - visitor.php .
+
 
 Questions:
 
