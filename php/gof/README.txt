@@ -25,7 +25,7 @@ Types:
 18. S - flyweight.php .
 19. B - interpreter.php .
 20. B - interator.php .
-21. 0 - mediator.php .
+21. B - mediator.php .
 22. 0 - memento.php .
 23. 0 - visitor.php .
 
