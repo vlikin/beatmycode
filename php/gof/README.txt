@@ -27,7 +27,7 @@ Types:
 20. B - interator.php .
 21. B - mediator.php .
 22. B - memento.php .
-23. 0 - visitor.php .
+23. B - visitor.php .
 
 
 Questions:
