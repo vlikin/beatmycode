@@ -6,28 +6,28 @@ Types:
  - S - Structual.
 
 1.  C - prototype.php .
-2.  B - command.php .
-3.  C - singleton.php .
-4.  B - builder.php .
-5.  B - template_method.php .
-6.  B - strategy.php .
-7.  B - state.php .
-8.  B - observer.php .
-9.  B - chain_of_responsibility.php .
-10. C - abstract_factory.php .
-11. C - factory_method.php .
-12. S - decorator.php .
-13. S - proxy.php .
-14. S - adapter.php .
-15. S - bridge.php .
-16. S - facade.php .
-17. S - composite.php .
-18. S - flyweight.php .
-19. B - interpreter.php .
-20. B - interator.php .
-21. B - mediator.php .
-22. B - memento.php .
-23. B - visitor.php .
+2.  C - singleton.php .
+3.  C - abstract_factory.php .
+5.  C - factory_method.php .
+6.  S - decorator.php .
+7.  S - proxy.php .
+8.  S - adapter.php .
+9.  S - bridge.php .
+10. S - facade.php .
+11. S - composite.php .
+12. S - flyweight.php .
+13. B - interpreter.php .
+14. B - interator.php .
+15. B - mediator.php .
+16. B - memento.php .
+17. B - visitor.php .
+18. B - command.php .
+19. B - builder.php .
+20. B - template_method.php .
+21. B - strategy.php .
+22. B - state.php .
+23. B - observer.php .
+24. B - chain_of_responsibility.php .
 
 
 Questions:
