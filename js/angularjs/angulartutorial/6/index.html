@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="./script.js"></script>
+    <style type="text/css">
+      .toggle {
+        -webkit-transition: -webkit-transition: linear 1s;
+        -moz-transition: linear 1s;
+        -ms-transition: linear 1s;
+        -o-transition: linear 1s;
+        transition: linear 1s;
+      }
+
+      .toggle.ng-enter{
+        opacity: 0;
+      }
+
+      .toggle.ng-enter-active{
+        opacity: 1;
+      }
+
+      .toggle.ng-leave{
+        opacity: 1;
+      }
+
+      .toggle.ng-leave-active{
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body ng-app="app" ng-controller="AppCtrl as app"> 
+    <button class="btn" ng-click="app.toggle=!app.toggle">Toggle Animation</button>
+    <div class="toggle" ng-if="app.toggle">Some content here</div>  
+  </body>
+</html>

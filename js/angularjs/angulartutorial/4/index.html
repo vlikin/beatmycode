@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <body ng-app="app" ng-controller="AppCtrl as app">
+      <button id="my-button" class="btn-primary" ng-click="app.fadeIt()">Click to fade</button>
+      <div id="my-badge" class="badge" hide-me="app.isHidden">Fade me</div>
+    </body>
+  </body>
+</html>

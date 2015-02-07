@@ -3,12 +3,18 @@ This is an angular tutorials.
 @url = https://thinkster.io/egghead/
 
 === Agenda ===
-+1.  An Alternative Approach to Controllers. It helps use `this` of a tag.
-+2.  angular.copy. It allows to create an intermediate object.
-3.  angular.element
-4.  Animating the Angular Way
-5.  Animating with JavaScript
-6.  Animation Basics
++1.  An Alternative Approach to Controllers.
+  It helps reuse `this` of a tag.
++2.  angular.copy.
+  It allows to create an intermediate object.
++3.  angular.element
+  Directive, template, compile, scope link.
++4.  Animating the Angular Way
+  Class names and animation are controlled programmaticaly.
++5.  Animating with JavaScript
+  Class binding, enter, leave animation event.
++6.  Animation Basics
+  CSS based, ng-enter, ng-leave.
 7.  Basic Behaviors
 8.  Binding
 9.  Building Zippy
@@ -58,3 +64,4 @@ This is an angular tutorials.
 
 === FAQ ===
  * DOM manipulation with/without jQuery - https://docs.angularjs.org/api/ng/function/angular.element .
+ * gsap lib for animation - http://greensock.com/sequence-video
