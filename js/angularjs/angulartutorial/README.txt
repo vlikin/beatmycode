@@ -15,9 +15,12 @@ This is an angular tutorials.
   Class binding, enter, leave animation event.
 +6.  Animation Basics
   CSS based, ng-enter, ng-leave.
-7.  Basic Behaviors
-8.  Binding
-9.  Building Zippy
++7.  Basic Behaviors
+  Mouse over, mouse out.
++8.  Binding
+  Data binding.
++9.  Building Zippy
+  Directive, input data outside of the scope, transclude.
 10. Built-in Filters
 11. Components and Containers
 12. The Config Function
