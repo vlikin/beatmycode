@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <style>
+    .alert-box {
+      background-color: grey;
+    }
+  </style>
+  <body>
+    <div ng-app="app">
+      <clock timezone="MST"></clock>
+      <br /><br />
+      <panel title="I'm a title">
+        <clock timezone="PST"></clock>
+        <clock timezone="MST"></clock>
+        <clock timezone="PST"></clock>
+        <clock timezone="MST"></clock>
+      </panel>
+    </div>
+  </body>
+</html>

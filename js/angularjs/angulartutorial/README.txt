@@ -21,8 +21,10 @@ This is an angular tutorials.
   Data binding.
 +9.  Building Zippy
   Directive, input data outside of the scope, transclude.
-10. Built-in Filters
-11. Components and Containers
++10. Built-in Filters
+  Filters: ng-model="search.$" -> filter:search, orderBy, limitTo, uppercase, lowercase
++ 11. Components and Containers
+  Components -> custom tags, Containers wraps elements.
 12. The Config Function
 13. Controllers
 14. Defining a Method on the Scope
