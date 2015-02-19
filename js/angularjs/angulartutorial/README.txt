@@ -23,22 +23,30 @@ This is an angular tutorials.
   Directive, input data outside of the scope, transclude.
 +10. Built-in Filters
   Filters: ng-model="search.$" -> filter:search, orderBy, limitTo, uppercase, lowercase
-+ 11. Components and Containers
++11. Components and Containers
   Components -> custom tags, Containers wraps elements.
-12. The Config Function
-13. Controllers
-14. Defining a Method on the Scope
-15. Directive Communication
-16. Directive for Route Handling
-17. Directive Restrictions
-18. Directive to Directive Communication
++12. The Config Function
+  routeProvider in config => route in controller.
++13. Controllers
+  Controller. Too simple.
++14. Defining a Method on the Scope
++15. Directive Communication
+  The directive could require another directive. A directive contains a controllers.
+  A directive requires anither directives, is able to reuse their controllers.
+- 16. Directive for Route Handling
+  I do not understand how it viewCtrl is injected into the route config.
++17. Directive Restrictions
+  A - Attribute, C - class name, M - comment, few directives could be applied to a tag.
++ 18. Directive to Directive Communication
+  Keep attantion to scope isollation.
 19. Directives Talking to Controllers
 20. Experimental "Controller as" Syntax
 21. Filters
 22. First Directive
 23. $index, $event, $log
 24. Injectors
-25. Intro to bower
++25. Intro to bower
+  Bower package manager.
 26. Isolate Scope "&"
 27. Isolate Scope "@"
 28. Isolate Scope "="
@@ -70,3 +78,4 @@ This is an angular tutorials.
 === FAQ ===
  * DOM manipulation with/without jQuery - https://docs.angularjs.org/api/ng/function/angular.element .
  * gsap lib for animation - http://greensock.com/sequence-video
+ * Difference between service, factory, provider, value, constant - http://habrahabr.ru/post/221733/ - http://habrahabr.ru/post/190342/
