@@ -37,14 +37,26 @@ This is an angular tutorials.
   I do not understand how it viewCtrl is injected into the route config.
 +17. Directive Restrictions
   A - Attribute, C - class name, M - comment, few directives could be applied to a tag.
-+ 18. Directive to Directive Communication
++18. Directive to Directive Communication
   Keep attantion to scope isollation.
-19. Directives Talking to Controllers
-20. Experimental "Controller as" Syntax
++19. Directives Talking to Controllers
+  $apply = $eval + $digest.
+  $eval - Executes the expression on the current scope and returns the result.
+  $digest - Processes all of the watchers of the current scope and its children.
+  $watch - Registers a listener callback to a variable.
++20. Experimental "Controller as" Syntax
+  Controllers wiyhou the variable - scope.
+  It should helps with nested controllers.
 21. Filters
-22. First Directive
-23. $index, $event, $log
-24. Injectors
+  It also shows how to inject services into filters.
++22. First Directive
+  Too simple.
++23. $index, $event, $log
+  $index for ng-repeat.
+  $event - the event object of a element.
+  $log - debugs the angular templates.
++24. Injectors
+  Shows how to invoke service in the different places(outsite, as controller parameter, by $injector).
 +25. Intro to bower
   Bower package manager.
 26. Isolate Scope "&"
@@ -79,3 +91,7 @@ This is an angular tutorials.
  * DOM manipulation with/without jQuery - https://docs.angularjs.org/api/ng/function/angular.element .
  * gsap lib for animation - http://greensock.com/sequence-video
  * Difference between service, factory, provider, value, constant - http://habrahabr.ru/post/221733/ - http://habrahabr.ru/post/190342/
+ * A scope of a directive is common because it is a scope of a cotroller. To use isolated directive scopes look at.
+ * $digest sets all watchers.
+ * $apply attaches the function to the exact scope. It is also wrapped into try/catched.
+It is also updated after every $digest.

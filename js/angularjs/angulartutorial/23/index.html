@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div ng-app="app">
+      <div
+        class="button"
+        ng-click="$log.debug($event)"
+        ng-repeat="item in ['h', 'e', 'l', 'p', 'o']"
+        >
+        {{ $index + 1 }}. {{ item }}
+      </div>
+    </div>
+  </body>
+</html>

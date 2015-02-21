@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <style>
+    .red {
+      background: red;
+    }
+  </style>
+  <body>
+    <div ng-app="twitterApp">
+      <div ng-controller="AppCtrl">
+        <div enter="loadMoreTweets()">Roll over to load more tweets</div>
+        <div enter="deleteTweets()">Delete tweets</div>
+      </div>
+    </div>
+  </body>
+</html>
