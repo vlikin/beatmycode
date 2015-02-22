@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <style>
+    .red {
+      background: red;
+    }
+  </style>
+  <body ng-app="app" ng-controller="AppCtrl as app">
+    <div ng-repeat-start="thing in app.things">{{ thing }}</div>
+    Anything in here
+    <div ng-repeat-end="">Also in here with binding {{ thing }}</div>
+  </body>
+</html>
