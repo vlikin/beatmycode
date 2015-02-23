@@ -23,7 +23,7 @@ app.directive('phone', function(){
       makeCall: '&'
     },
     templateUrl: 'phone.html',
-    link: function(scope){
+    link: function(scope) {
         scope.networks = ["Verizon", "AT&T", "Sprint"];
         scope.network = scope.networks[0];
       }

@@ -47,7 +47,7 @@ This is an angular tutorials.
 +20. Experimental "Controller as" Syntax
   Controllers wiyhou the variable - scope.
   It should helps with nested controllers.
-21. Filters
++21. Filters
   It also shows how to inject services into filters.
 +22. First Directive
   Too simple.
@@ -59,33 +59,62 @@ This is an angular tutorials.
   Shows how to invoke service in the different places(outsite, as controller parameter, by $injector).
 +25. Intro to bower
   Bower package manager.
-26. Isolate Scope "&"
-27. Isolate Scope "@"
-28. Isolate Scope "="
-29. Isolate Scope Review
-30. ng-repeat-start
-31. ng-view
-32. ngFilter
-33. ngmin
-34. Promises
-35. Providers
-36. redirectTo
-37. Resolve Conventions
-38. Resolve $routeChangeError
-39. Resolve
-40. Route Life Cycle
-41. $routeParams
-42. $routeProvider api
-43. $scope vs scope
-44. Sharing Data Between Controllers
-45. $templateCache
-46. templateUrl
-47. Testing Overview
-48. The Dot
-49. Thinking Differently About Organization
-50. Transclusion Basics
-51. Understanding Isolate Scope
-52. Useful Behaviors
++26. Isolate Scope "&"
+  Parent scope.
++27. Isolate Scope "@"
+  Atribute name=value
++28. Isolate Scope "="
+  Operator expects an object which it can bind to. 
++29. Isolate Scope Review
++30. ng-repeat-start
+  ng-repeat with the prefix and sufix.
++31. ng-view
+  Routing.
++32. ngFilter
+  Filter - look at 10.
++33. ngmin
+  It is a tool that minifies the AngularJS code. We use the a gulp extension instead.
++34. Promises
+  Defining a future chain of steps.
++35. Providers
+  The factory and provider, definitions in the different places by different ways.
++36. redirectTo
+  Redirect rules.
++37. Resolve Conventions
+  Loads data before view is opened.
++38. Resolve $routeChangeError
+  App ctrl with view ctrls. $routeChangeError - the error route event.
++39. Resolve
+  The same as 34 + 38. resolve property contains a list of resolvers before a view is rendered.
++40. Route Life Cycle
+  The order invoked event is described here.
++41. $routeParams
+  Route Params provider.
++42. $routeProvider api
++43. $scope vs scope
+  Look at 29.
++44. Sharing Data Between Controllers
+  Sharing Data by a factory.
++45. $templateCache
+  To set the template
+  *templateUrl: 'zippy.html',
+  *template: $templateCache.get('zippy.html'),
+  To define the template:
+  * <script type="text/ng-template" id="zippy.html"> ..
+  * $templateCache.put("zippy.html", '<div>
+  * Static file.
++46. templateUrl
+  Look at 45.
+-47. Testing Overview
++?48. The Dot
+  It does not work as expected.
++49. Thinking Differently About Organization
+  Assembling the angular project from different objects.
++50. Transclusion Basics
++51. Understanding Isolate Scope
+  ng-click="var({chore: chore})" - Binding to variable.
++52. Useful Behaviors
+  element, bind, mouseenter, mouseleave.
 
 === FAQ ===
  * DOM manipulation with/without jQuery - https://docs.angularjs.org/api/ng/function/angular.element .
@@ -95,3 +124,5 @@ This is an angular tutorials.
  * $digest sets all watchers.
  * $apply attaches the function to the exact scope. It is also wrapped into try/catched.
 It is also updated after every $digest.
+ * $http - the service looks like jQueyr.ajax
+ * $resourse - It is reuseable $http object tunned for an end point.

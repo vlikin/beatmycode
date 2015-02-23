@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div ng-app="app">
+      <script type="text/ng-template" id="zippy.html">
+        <div>
+          <h3 ng-click="toggleContent()">{{title}}</h3>
+          <div ng-show="isContentVisible" ng-transclude></div>
+        </div>
+      </script>
+      <input type="text" ng-model="model.title">
+      <input type="text" ng-model="model.content">
+      <zippy title="{{ model.title }}">
+        The content is: {{model.content}}
+      </zippy>
+
+      <zippy2 title="{{ model.title }}">
+        The content is: {{model.content}}
+      </zippy2>
+
+      <zippy3 title="{{ model.title }}">
+        The content is: {{model.content}}
+      </zippy3>
+    </div>
+  </body>
+</html>
