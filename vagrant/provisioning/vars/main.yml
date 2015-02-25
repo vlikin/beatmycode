@@ -1,0 +1,7 @@
+# variables
+
+# ntp
+ntp_timezone: "Europe/Kiev"
+locale: en_US.UTF-8
+project_name: shelepen
+mysql_root_db_pass: root
