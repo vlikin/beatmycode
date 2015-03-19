@@ -1,1 +1,5 @@
 python/ipython/notebook/.ipynb_checkpoints*
+
+js/angularjs/ionic/myApp/node_modules/
+js/angularjs/ionic/myApp/platforms/
+js/angularjs/ionic/myApp/plugins
