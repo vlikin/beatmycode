@@ -4,7 +4,21 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/')
 
   $stateProvider.state('home', {
-    url: '/',
-    template: '<p>Hello, world!</p>'
-  })
+    url: '/home',
+    views: {
+      home: {
+        templateUrl: 'home.html'
+      }
+    }
+  });
+
+  $stateProvider.state('help', {
+    url: '/help',
+    views: {
+      help: {
+        templateUrl: 'help.html'
+      }
+    }
+  });
+
 })
