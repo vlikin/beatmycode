@@ -1,0 +1,16 @@
+<script>
+  function A() {
+    var p1 = 'A.p1'; // It is a local variable.
+    this.p2 = 'A.p2'; // It is an object field.
+
+    return this;
+  }
+
+  console.log('Hello');
+  console.log(A);
+  console.log(A.p1);
+  console.log(A().p2);
+  console.log(A().p1);
+  var a = new A();
+  console.log(a);
+</script>
